@@ -1,0 +1,230 @@
+body{
+  overflow-x: hidden;
+}
+#home{
+  background: url("https://images.unsplash.com/photo-1513023840371-dd774fcaee5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.kerala-tourism{
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  text-shadow: 2px 2px  black;
+}
+
+.navbar{
+  position: absolute;
+}
+.main-head{
+  font-size: 70px;
+  font-weight: 700;
+  margin: 40px;
+}
+.packages{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.more-package{
+  text-align: center;
+}
+.package-items{
+  margin-top: 10px;
+}
+.youtube{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  
+}
+.youtube-items{
+  width: 550px;
+  height: 350px;
+  margin-top: 10px;
+  
+}
+
+
+
+.north{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+}
+.north-items{
+  width: 270px;
+  height: 300px;
+  border-radius: 20px;
+  border: 0.5px solid;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.north-img{
+  width: 90%;
+  border-radius: 20px;
+}
+
+.kerala-tour{
+  width: 100%;
+  height: 100%;
+}
+.honey-para{
+  text-align: justify;
+}
+.red{
+  font-size: 16px;
+}
+.premium{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.premium-item{
+  width: 250px;
+  height: 290px;
+  background-color: rgb(230, 228, 225);
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+}
+.premium-img{
+  width: 170px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.learn-more{
+  text-decoration: none;
+}
+.feed-back{
+  width: 100%;
+  height: auto;
+  background-color: rgb(236, 220, 220);
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.feed-custo{
+  width: 350px;
+  height: 350px;
+  background-color: rgb(236, 220, 220);
+  text-align: center;
+  margin-top: 10px;
+}
+.feed-img{
+  width: 100%;
+}
+.love{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 20px;
+}
+.our-love{
+  text-align: center;
+  background-color: rgb(236, 220, 220);
+  height: 100px;
+  margin-top: 20px;
+}
+.footer-container{
+  width: 100%;
+  height: auto;
+  background-color: rgb(17, 17, 105);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.footer-items{
+  width: 350px;
+  height: 360px;
+  /* background-color: antiquewhite; */
+}
+.ul-tag{
+  list-style: none;
+}
+.lists{
+  line-height: 3;
+  font-size: 17px;
+  color: #ffffff;
+  margin-left: -30px;
+}
+.ul-tag a{
+  text-decoration: none;
+}
+.social-icon{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.soc-icons{
+  width: 70px;
+  height: 70px;
+  text-align: center;
+
+}
+.brand{
+  font-size: 40px;
+  color: #ffffff;
+}
+.exxplore{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.explore-img{
+  width: 250px;
+ 
+}
+.copyright{
+  width: 100%;
+  height: 30px;
+  background-color: rgb(17, 17, 105);
+  text-align: center;
+}
+@media (max-width:960px){
+  .youtube{
+    flex-wrap: wrap;
+  }
+  .north{
+    flex-wrap: wrap;
+  }
+  .packages{
+    flex-wrap: wrap;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .main-head{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 40px;
+  }
+  .premium{
+    flex-wrap: wrap;
+  }
+  .feed-back{
+    flex-wrap: wrap;
+  }
+  .footer-container{
+    flex-wrap: wrap;
+  }
+  .footer-items{
+    text-align: center;
+  }
+  
+}
